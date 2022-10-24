@@ -1,17 +1,3 @@
-Algorithm:
-
-    Start
-    By convention, the distance of the node to itself is assigned to zero and when a node is unreachable the distance is accepted as 999.
-    Accept the input distance matrix from the user (dm[][]) that represents the distance between each node in the network.
-    Store the distance between nodes in a suitable varible.
-    Calculate the minimum distance between two nodes by iterating.
-        If the distance between two nodes is larger than the calculated alternate available path, replace the existing distance with the calculated distaance.
-    Print the shortest path calculated.
-    Stop.
-
-Code: filename.c
-
-
 #include <stdio.h>
 
 
